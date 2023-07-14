@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-        db, dtype, err := oracle.GetDB("oracle://vrusu:vali20@toroda02-scan:1521/TRPSUAT")
+        db, dtype, err := oracle.GetDB("oracle://user:password@server:port/service")
         fmt.Println(err, db, dtype)
 }
 
